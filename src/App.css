@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: #2148C0;
+    color:#FFFFFF;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+}
+.Login{
+    width: 100%;
+    flex-direction: column;
+  
+    display: flex;
+   
+    position: relative;
+}
+
+.Login .background {
+    width: 100%;
+    position: absolute;
+    height: auto;
+}
+
+.Login .background .b1 {
+    float: right;
+}
+.Login .background .b2{
+    float: left;
+}
+
+.Login .background .b3{
+    float: left;
+}
+.Login .main{
+    z-index: 1;
+}
+.Login .main .col{
+    max-width: 350px;
+    width: 100%;
+    margin: auto;
+}
+.Login .main .logo{
+    height: 120px;
+}
+.Login .main input{
+    font-weight: 200;
+    width: -webkit-fill-available;
+    padding: 10px 10px 10px 40px;
+    color: #FFFFFF;
+    border: 1px solid white;
+    background-color: transparent;
+}
+.Login input::placeholder{
+    color: white;
+    font-weight: 200;
+}
+.Login button{
+    width: 100%;
+    padding: 10px 20px;
+    color: #2148C0;
+    font-size: 15px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.Login .inputImg{
+    height: -webkit-fill-available;
+    float: left;
+    position: relative;
+    top: 28px;
+    left: 10px;
+    display: inline;
+    width: 20px;
+}
+
+.Login p{
+    float: right;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+a{
+    text-decoration: none;;
+}
+.border{
+    border: 0px solid;
+    border-radius: 4px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.mb-30{
+    margin-bottom: 30px;
+}
+.mb-50{
+    margin-bottom: 50px;
+}
+
