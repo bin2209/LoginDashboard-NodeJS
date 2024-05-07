@@ -10,30 +10,36 @@ body{
 .Login{
     width: 100%;
     flex-direction: column;
-  
     display: flex;
-   
     position: relative;
 }
-
 .Login .background {
     width: 100%;
     position: absolute;
     height: auto;
 }
-
+.Login .background img{
+    width: 100%;
+}
 .Login .background .b1 {
     float: right;
 }
 .Login .background .b2{
+    position: absolute;
+    top: 57vh;
     float: left;
+    width: 400px;
 }
-
 .Login .background .b3{
     float: left;
+    width: 400px;
+    position: absolute;
+    top: 57vh;
 }
 .Login .main{
     z-index: 1;
+    height: 100vh;
+    margin-top: 4em;
 }
 .Login .main .col{
     max-width: 350px;
@@ -72,15 +78,14 @@ body{
     display: inline;
     width: 20px;
 }
-
 .Login p{
     float: right;
     font-size: 14px;
     color: #FFFFFF;
 }
-
 a{
-    text-decoration: none;;
+    text-decoration: none;
+   ;
 }
 .border{
     border: 0px solid;
@@ -95,4 +100,5 @@ a{
 .mb-50{
     margin-bottom: 50px;
 }
+
 
